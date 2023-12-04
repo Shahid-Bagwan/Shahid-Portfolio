@@ -36005,10 +36005,10 @@ const oM = [
       id: 2,
       name: "Shahid Estate",
       description:
-        "A MERN stack project that builds a modern real estate marketplace application. The application includes features like user authentication, property listings, search, and more. The project is deployed to Render. ",
+        "A MERN stack project that builds a modern real estate marketplace application. The application includes features like user authentication, property listings, search, and more. The project is deployed to Vercel. ",
       image: "images/projects/ShahidEstate.jpg",
       tags: ["mongodb", "react", "nodejs", "redux", "gcp", "firebase", "jwt"],
-      liveview: "https://shahid-estate.onrender.com/",
+      liveview: "https://real-estate-frontend-lyart.vercel.app/",
       github: "https://github.com/Shahid-Bagwan/real_estate",
       alt: "a modern real estate marketplace application",
     },
