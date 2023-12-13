@@ -36031,7 +36031,7 @@ const oM = [
         "Python",
         "Docker",
       ],
-      linkedin: "https://www.linkedin.com/in/shahid-bagwan-a0a76a1b4/",
+      twitter: "https://twitter.com/sbagwan0301",
       alt: "The AI Tutor Pro is a web application that allows you to create a course using the power of OpenAI models",
     },
     {
@@ -36135,12 +36135,12 @@ class lM {
                      : ""
                  }
             `)
-        : e.linkedin
+        : e.twitter
         ? (t = `
             <div id="work-item-orange-button-${e.id}" class="work-item-orange-button small-button center orange-hover" style="width: 100%; margin: 0;">
-            <svg fill="#fff" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 30" width="24px" height="24px" style="margin-right: 5px">
-            <path d="M0 2.608C0 1.168 1.007 0 2.25 0S4.5 1.168 4.5 2.608C4.5 4.16 2.493 5.328 1.25 5.328 0.007 5.328 0 4.16 0 2.608zm0 0v23.552C0 28.832 1.007 30 2.25 30h25.5C28.993 30 30 28.832 30 26.16V2.608C30 1.168 28.993 0 27.75 0H2.25C1.007 0 0 1.168 0 2.608zM7.5 10.547c0-.707.526-1.281 1.172-1.281 1.14 0 1.172 1.281 0 1.281h-.014c-.646 0-1.158-.574-1.158-1.281zm-1.641 3.117h3.266v8.656H5.859V13.664zM7.083 8.805c-.27 0-.489-.236-.489-.527 0-.29.219-.527.489-.527s.489.237.489.527c0 .291-.22.527-.489.527zm16.392 4.94c-1.406 0-2.49.75-2.882 1.453h-.042V13.66H19.22v8.656h3.25v-4.547c0-1.22.232-2.403 1.636-2.403 1.406 0 1.477 1.305 1.477 2.484v4.466h3.266V13.66c0-3.358-.68-6.02-4.922-6.02zm-9.111-1.383c2.122 0 3.837 1.72 3.837 3.844s-1.715 3.844-3.837 3.844s-3.836-1.72-3.836-3.844c0-2.124 1.714-3.844 3.836-3.844zm0 7.312c1.487 0 2.69-1.211 2.69-3.468s-1.203-3.468-2.69-3.468s-2.691 1.21-2.691 3.468c0 2.257 1.203 3.468 2.691 3.468z"/>
-          </svg>
+            <svg fill="#ffffff" xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 30 30" width="24px" height="24px" style="margin-right: 5px">    
+                    <path d="M28,6.937c-0.957,0.425-1.985,0.711-3.064,0.84c1.102-0.66,1.947-1.705,2.345-2.951c-1.03,0.611-2.172,1.055-3.388,1.295 c-0.973-1.037-2.359-1.685-3.893-1.685c-2.946,0-5.334,2.389-5.334,5.334c0,0.418,0.048,0.826,0.138,1.215 c-4.433-0.222-8.363-2.346-10.995-5.574C3.351,6.199,3.088,7.115,3.088,8.094c0,1.85,0.941,3.483,2.372,4.439 c-0.874-0.028-1.697-0.268-2.416-0.667c0,0.023,0,0.044,0,0.067c0,2.585,1.838,4.741,4.279,5.23 c-0.447,0.122-0.919,0.187-1.406,0.187c-0.343,0-0.678-0.034-1.003-0.095c0.679,2.119,2.649,3.662,4.983,3.705 c-1.825,1.431-4.125,2.284-6.625,2.284c-0.43,0-0.855-0.025-1.273-0.075c2.361,1.513,5.164,2.396,8.177,2.396 c9.812,0,15.176-8.128,15.176-15.177c0-0.231-0.005-0.461-0.015-0.69C26.38,8.945,27.285,8.006,28,6.937z"/>
+                </svg>
           
                 Stay up to date
             </div>`)
@@ -36202,11 +36202,11 @@ class lM {
               .addEventListener("click", () => {
                 window.open(e.liveview, "_blank").focus();
               }))
-        : e.linkedin &&
+        : e.twitter &&
           document
             .getElementById("work-item-orange-button-" + e.id)
             .addEventListener("click", () => {
-              window.open(e.linkedin, "_blank").focus();
+              window.open(e.twitter, "_blank").focus();
             });
   }
 }
@@ -39964,9 +39964,9 @@ class EM {
       {
         name: "mouseWheel",
         files: [
-          "/sounds/mouse-wheel-0.mp3",
-          "/sounds/mouse-wheel-1.mp3",
-          "/sounds/mouse-wheel-2.mp3",
+          "../sounds/mouse-wheel-0.mp3",
+          "../sounds/mouse-wheel-1.mp3",
+          "../sounds/mouse-wheel-2.mp3",
         ],
         group: "landing",
         volume: 0.6,
@@ -39974,95 +39974,95 @@ class EM {
       {
         name: "bubble",
         files: [
-          "/sounds/bubble-0.mp3",
-          "/sounds/bubble-1.mp3",
-          "/sounds/bubble-2.mp3",
+          "../sounds/bubble-0.mp3",
+          "../sounds/bubble-1.mp3",
+          "../sounds/bubble-2.mp3",
         ],
         group: "lab",
         volume: 0.2,
       },
       {
         name: "roomAmbience",
-        files: ["/sounds/room-ambience.mp3"],
+        files: ["../sounds/room-ambience.mp3"],
         group: "landing",
         volume: 0.1,
         html5: !0,
       },
       {
         name: "notification",
-        files: ["/sounds/notification.mp3"],
+        files: ["../sounds/notification.mp3"],
         group: "landing",
         volume: 0.25,
       },
       {
         name: "longKeyboard",
-        files: ["/sounds/long-keyboard.mp3"],
+        files: ["../sounds/long-keyboard.mp3"],
         group: "landing",
         volume: 0.5,
       },
       {
         name: "labAmbience",
-        files: ["/sounds/lab-ambience.mp3"],
+        files: ["../sounds/lab-ambience.mp3"],
         group: "lab",
         volume: 0.15,
       },
       {
         name: "waterSplash",
-        files: ["/sounds/water-splash.mp3"],
+        files: ["../sounds/water-splash.mp3"],
         group: "lab",
         volume: 0.3,
       },
       {
         name: "hologram",
-        files: ["/sounds/hologram.mp3"],
+        files: ["../sounds/hologram.mp3"],
         group: "lab",
         volume: 0.8,
       },
       {
         name: "transition0",
-        files: ["sounds/transition-0.mp3"],
+        files: ["../sounds/transition-0.mp3"],
         group: "general",
         volume: 0.3,
       },
       {
         name: "transition1",
-        files: ["sounds/transition-1.mp3"],
+        files: ["../sounds/transition-1.mp3"],
         group: "general",
         volume: 0.3,
       },
       {
         name: "waterUp",
-        files: ["/sounds/water-up.mp3"],
+        files: ["../sounds/water-up.mp3"],
         group: "general",
         volume: 0.5,
       },
       {
         name: "gasp",
-        files: ["/sounds/gasp.mp3"],
+        files: ["../sounds/gasp.mp3"],
         group: "general",
         volume: 0.2,
       },
       {
         name: "buttonClick",
-        files: ["/sounds/button-click.mp3"],
+        files: ["../sounds/button-click.mp3"],
         group: "general",
         volume: 1,
       },
       {
         name: "chairDown",
-        files: ["/sounds/chair-down.mp3"],
+        files: ["../sounds/chair-down.mp3"],
         group: "landing",
         volume: 0.4,
       },
       {
         name: "chairImpact",
-        files: ["/sounds/chair-impact.mp3"],
+        files: ["../sounds/chair-impact.mp3"],
         group: "landing",
         volume: 1,
       },
       {
         name: "bird",
-        files: ["/sounds/bird.mp3"],
+        files: ["../sounds/bird.mp3"],
         group: "landing",
         volume: 0.6,
       },
