@@ -36006,11 +36006,34 @@ const oM = [
       name: "Shahid Estate",
       description:
         "A MERN stack project that builds a modern real estate marketplace application. The application includes features like user authentication, property listings, search, and more. The project is deployed to Vercel. ",
-      image: "images/projects/ShahidEstate.jpg",
+      image: "images/projects/ShahidEstate.gif",
       tags: ["mongodb", "react", "nodejs", "redux", "gcp", "firebase", "jwt"],
       liveview: "https://real-estate-frontend-lyart.vercel.app/",
       github: "https://github.com/Shahid-Bagwan/real_estate",
       alt: "a modern real estate marketplace application",
+    },
+    {
+      id: 3,
+      name: "AI Tutor Pro",
+      description:
+        "The AI Tutor Pro is a web application that allows you to create a course using the power of OpenAI models. The application is built using AWS, DigitalOcean, OpenAI API, Youtube API, Next.js, Prisma, PostgreSQL, PalmAI, Planetscale, Typescript, Python, Docker. The project is self hosted.",
+      image: "images/projects/aitutorpro.gif",
+      tags: [
+        "AWS",
+        "DigitalOcean",
+        "OpenAI",
+        "Next.js",
+        "Prisma",
+        "PostgreSQL",
+        "PalmAI",
+        "Planetscale",
+        "Typescript",
+        "Python",
+        "Docker",
+      ],
+      linkedin: "https://www.linkedin.com/in/shahid-bagwan-a0a76a1b4/",
+      github: "https://github.com/Shahid-Bagwan/AITutorPro",
+      alt: "The AI Tutor Pro is a web application that allows you to create a course using the power of OpenAI models",
     },
     {
       id: 3,
@@ -36124,7 +36147,7 @@ class lM {
                      : ""
                  }
             `)
-        : e.twitter
+        : e.linkedin
         ? (t = `
             <div id="work-item-orange-button-${e.id}" class="work-item-orange-button small-button center orange-hover" style="width: 100%; margin: 0;">
                 <svg fill="#ffffff" xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 30 30" width="24px" height="24px" style="margin-right: 5px">    
@@ -36190,11 +36213,11 @@ class lM {
               .addEventListener("click", () => {
                 window.open(e.liveview, "_blank").focus();
               }))
-        : e.twitter &&
+        : e.linkedin &&
           document
             .getElementById("work-item-orange-button-" + e.id)
             .addEventListener("click", () => {
-              window.open(e.twitter, "_blank").focus();
+              window.open(e.linkedin, "_blank").focus();
             });
   }
 }
