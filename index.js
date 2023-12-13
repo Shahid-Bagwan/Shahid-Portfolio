@@ -36032,11 +36032,10 @@ const oM = [
         "Docker",
       ],
       linkedin: "https://www.linkedin.com/in/shahid-bagwan-a0a76a1b4/",
-      github: "https://github.com/Shahid-Bagwan/AITutorPro",
       alt: "The AI Tutor Pro is a web application that allows you to create a course using the power of OpenAI models",
     },
     {
-      id: 3,
+      id: 4,
       name: "WoofSwipe",
       description:
         "WoofSwipe Made for our furry friends to find their soulmate. A testimonial page is also added to show the reviews of the users. Check out the website to know more.",
@@ -36050,7 +36049,7 @@ const oM = [
       ],
     },
     {
-      id: 4,
+      id: 5,
       name: "ComedyBurst",
       description:
         "A Comedy Event website to give fans easy access to concerts",
